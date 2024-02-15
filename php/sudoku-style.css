@@ -55,11 +55,3 @@ body{
   @supports (display:grid) {
     .note {display:none;}
   }
-  .form-control {
-    font-size: 52px;
-  }
-
-
-table,tr{
-  border:1px solid black;
-}
