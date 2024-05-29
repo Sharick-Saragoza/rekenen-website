@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Stylesheet-->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
   <!-- Bootstrap  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -17,10 +17,10 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand">Rekenen met Sharick</a>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.php">Home</a>
           </li>
           <!-- Dropdown -->
           <li class="nav-item dropdown">
@@ -28,10 +28,10 @@
               Apps
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="app01.html">Tafels</a></li>
-              <li><a class="dropdown-item" href="app02.html">Eenheden omrekenen</a></li>
-              <li><a class="dropdown-item" href="app03.html">Sudoku</a></li>
-              <li><a class="dropdown-item" href="app04.html">Rekentool</a></li>
+              <li><a class="dropdown-item" href="app01.php">Tafels</a></li>
+              <li><a class="dropdown-item" href="app02.php">Eenheden omrekenen</a></li>
+              <li><a class="dropdown-item" href="app03.php">Sudoku</a></li>
+              <li><a class="dropdown-item" href="app04.php">Rekentool</a></li>
             </ul>
           </li>
         </ul>

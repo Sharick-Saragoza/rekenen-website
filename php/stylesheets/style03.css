@@ -55,3 +55,10 @@ body{
   @supports (display:grid) {
     .note {display:none;}
   }
+
+  #navstyle{
+    background-color: transparent;
+    border: solid 0px;
+    font-size: 16px;
+  }
+
